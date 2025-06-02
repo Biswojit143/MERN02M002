@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head2{
+    background-color:blue ;
+}
+.head3{
+    background-color: brown;
+}
+h4, h5, h6{
+    background-color: blueviolet;
+}
+p{
+    font-size: 1.3rem;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+div:hover{
+    background-color: brown;
+}
+input:focus{
+    background-color: red;
+}
+ul{
+    list-style: disc;
+}
