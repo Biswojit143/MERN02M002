@@ -1,0 +1,65 @@
+/*!space :- Descdent selector
+! > :- Direct selector
+!
+*/
+/*
+div~p{
+    background-color: red;
+}
+
+/*!Attribute selector*/
+/*
+[id]{
+    color: aqua;
+}
+/*!Attribute woth value*/
+/*
+[id="box1"]{
+    color: rgb(115, 247, 27);
+}
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*#box{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}*/
+.box-container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.box{
+    /*width: 50px;*/
+    height: 50px;
+    border: 2px solid rgb(51, 5, 189);
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    background-color: blueviolet;
+    display: inline;
+    width: 300px;
+}
+span{
+     background-color: rgb(222, 24, 90);
+    display: block;
+    width: 300px;
+}
+strong{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+}
