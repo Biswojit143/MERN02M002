@@ -1,0 +1,66 @@
+body{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   background-color: rgb(252, 252, 252);
+}
+
+body,html{
+    height:100%;
+    width: 100%;
+    background: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-waterfall-free-image.jpeg?w=600&quality=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.login-container{
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+input{
+    padding: 10px;
+    border: 1px soild black;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.forgot-password{
+    text-align: right;
+    margin: 5px 0 15px;
+    
+}
+
+button{
+    background-color:  rgb(241, 33, 33);
+    color: white;
+    border-radius: 20px;
+    border: white;
+    height: 40px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: green;
+    transition-duration: 1s;
+}
+
+
