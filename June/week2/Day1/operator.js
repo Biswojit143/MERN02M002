@@ -61,10 +61,10 @@ console.log("a"-1);
 let x=2
 let y=a++
 console.log(x,y);
-
+// console.log("**********************************************");
 console.log(0 == '');
 console.log(0 === '');
-
+// console.log("**********************************************");
 console.log(!! "");
 
 
